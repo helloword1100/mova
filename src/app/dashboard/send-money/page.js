@@ -30,11 +30,13 @@ export default function SendMoney() {
   return (
     <Layout>
       <div className="px-11">
+      
         <h1 className="text-2xl font-semibold mb-4">Send Money</h1>
         <p className="text-gray-600 mb-6 text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
           bibendum laoreet massa quis viverra.
         </p>
+       
         <div>
           {receiver ? (
             <Recieverdetail />
@@ -77,10 +79,12 @@ export default function SendMoney() {
                   onChange={handleChange}
                   className="w-full p-2 border rounded-md mt-2"
                 />
-              </div>
+              </div>  
+
+             
               <Button
                 type="submit"
-                className="button-background text-white font-semibold border rounded-lg w-full"
+                className="button-background text-white font-semibold border rounded-lg w-full no-hover"
                 onClick={() => setReceiver(!receiver)}
               >
                 NEXT

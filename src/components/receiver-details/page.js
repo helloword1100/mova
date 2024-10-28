@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Pin from '../../pop-ups/pin'
 
 export default function receiverdetails() {
   const details = [
@@ -12,6 +13,7 @@ export default function receiverdetails() {
 
   return (
     <Card className="w-full max-w-sm mx-auto border-0 shadow-none ">
+     
       <CardHeader >
         <CardTitle className="text-xl font-semibold text-center">Receiver Details</CardTitle>
         <p className="text-sm text-center text-muted-foreground">
@@ -29,7 +31,7 @@ export default function receiverdetails() {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="button-background text-white font-semibold border rounded-lg w-full mt-12">CONFIRM</Button>
+        <Pin value="Confirm" style="button-background text-white font-semibold border rounded-lg w-full mt-12  no-hover "/>
       </CardFooter>
     </Card>
   )

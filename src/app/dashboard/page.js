@@ -67,7 +67,9 @@ export default function Dashboard() {
 
   return (
     <Layout>
+     
       <div className="px-4 sm:px-6 md:px-10">
+        
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
             <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between w-full sm:w-[38%] gap-2 sm:gap-0">
@@ -137,7 +139,7 @@ export default function Dashboard() {
                   Recent Employee Transactions
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-7 overflow-x-auto">
+              <CardContent className="p-0 mt-12 overflow-x-auto">
                 <Table className="p-0">
                   <TableHeader className="p-6 tb-col">
                     <TableRow>

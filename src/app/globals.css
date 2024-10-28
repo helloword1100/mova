@@ -16,7 +16,23 @@
   border-color: #544af1;
 
 }
+.no-hover:hover {
+  background-color: #544af1 !important;
+  color:white !important;
+}
 
+.opt{
+  width:38px !important;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+color:#CCCCCC;
+
+}
 
 .btn-txt-color{
   color:#544af1;
@@ -27,7 +43,18 @@
 .border-color-input{
   border-color: #A1B0CC;
 }
-
+.border-class-employee{
+  border:1px solid #C2C2C2;
+}
+.active-status{
+  color:#2DBE9F;
+}
+.select-f-color{
+  color:#C2C2C2!important;
+}
+.select-color{
+  color:#676565;
+}
 /* light gray paragraph color */
 
 .p-color{
